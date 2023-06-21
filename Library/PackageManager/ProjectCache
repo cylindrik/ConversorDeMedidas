@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181255995386158
-    m_Hash: 2129503285
+      ticks: 638186429878458760
+    m_Hash: 2425901204
   m_LockFileStatus:
     m_FilePath: C:/Conversor/ConversorDeMedidas/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181255995435587
-    m_Hash: 3126049623
+      ticks: 638186429878468734
+    m_Hash: 4172823763
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -874,6 +874,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -886,6 +887,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -896,7 +898,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -3055,9 +3057,11 @@ m_ResolvedPackages:
     - 3.0.2
     - 3.1.0
     - 3.2.0
+    - 3.2.1
     compatible:
     - 3.1.0
     - 3.2.0
+    - 3.2.1
     verified: 3.1.0
   dependencies: []
   resolvedDependencies: []

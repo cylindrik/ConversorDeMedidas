@@ -5,6 +5,12 @@ ScriptsOnlyBuild:
     - InputDetect
     - SceneManagements
     - TabInputField
+    Unity.Recorder.Editor.dll:
+    - UnityEditor.Recorder.MovieRecorderEditor
+    - UnityEditor.Recorder.MovieRecorderSettings
+    - UnityEditor.Recorder.RecorderControllerSettings
+    - UnityEditor.Recorder.RecorderSettingsPrefsEditor
+    - UnityEditor.Recorder.RecorderWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -69,49 +75,49 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: CloseObjHeightCanvas
-  - assembly: Assembly-CSharp
-    fullTypeName: InputDetect
-    methodName: SaveText
+    methodName: OpenHeightOfRefOBJCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: CloseLenghtOfRefOBJCanvas
+    methodName: CloseObjLenghtCanvas
+  - assembly: Assembly-CSharp
+    fullTypeName: InputDetect
+    methodName: ClosePopCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InputDetect
     methodName: CloseInvalidCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: OpenLenghtOfRefOBJCanvas
+    methodName: CloseHorDistCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: CloseHorDistCanvas
+    methodName: OpenObjHeightCanvas
+  - assembly: Assembly-CSharp
+    fullTypeName: InfoCanvasController
+    methodName: CloseObjHeightCanvas
+  - assembly: Assembly-CSharp
+    fullTypeName: InfoCanvasController
+    methodName: CloseVerDistCanvas
+  - assembly: Assembly-CSharp
+    fullTypeName: InfoCanvasController
+    methodName: CloseHeightOfRefOBJCanvas
+  - assembly: Assembly-CSharp
+    fullTypeName: InputDetect
+    methodName: SaveText
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
     methodName: OpenVerDistCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: CloseObjLenghtCanvas
-  - assembly: Assembly-CSharp
-    fullTypeName: InfoCanvasController
-    methodName: OpenHeightOfRefOBJCanvas
-  - assembly: Assembly-CSharp
-    fullTypeName: InfoCanvasController
-    methodName: OpenHorDistCanvas
-  - assembly: Assembly-CSharp
-    fullTypeName: InfoCanvasController
     methodName: OpenObjLenghtCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: CloseHeightOfRefOBJCanvas
+    methodName: CloseLenghtOfRefOBJCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: CloseVerDistCanvas
-  - assembly: Assembly-CSharp
-    fullTypeName: InputDetect
-    methodName: ClosePopCanvas
+    methodName: OpenLenghtOfRefOBJCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InfoCanvasController
-    methodName: OpenObjHeightCanvas
+    methodName: OpenHorDistCanvas
   - assembly: Assembly-CSharp
     fullTypeName: InputDetect
     methodName: SaveText
